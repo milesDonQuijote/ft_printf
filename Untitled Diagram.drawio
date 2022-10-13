@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-13T12:40:02.910Z" agent="5.0 (X11)" etag="yh11cN7SI9-22e_1j-vs" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-13T12:49:23.370Z" agent="5.0 (X11)" etag="13KZFuEnAnKQECMO6Sv6" version="20.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="385" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="462" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -153,8 +153,11 @@
         <mxCell id="G9P82WGp1A6Tgu5w0M1S-65" value="Hayır" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1100" y="265" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="G9P82WGp1A6Tgu5w0M1S-66" value="&lt;div&gt;Sayı örn:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;%10x&quot; = 10&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="G9P82WGp1A6Tgu5w0M1S-66" value="&lt;div&gt;Sayı örn:&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;%10s&quot; = 10&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="580" y="10" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G9P82WGp1A6Tgu5w0M1S-67" value="&lt;div&gt;Örnekler:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;printf(&quot;%#x&quot;,123) -&amp;gt; 7b&lt;/div&gt;&lt;div&gt;printf(&quot;%#X&quot;, 123) -&amp;gt; 7B&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;printf(&quot;%.3&quot;, &quot;arbi&quot;) -&amp;gt; arb&lt;/div&gt;&lt;div&gt;printf(&quot;%.10&quot;, &quot;arbi&quot;) -&amp;gt; arbi&lt;/div&gt;&lt;div&gt;printf(&quot;%.10i&quot;, 123) -&amp;gt; 0000000123&lt;/div&gt;&lt;div&gt;printf(&quot;%.1&quot;, 123) -&amp;gt; 123&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;printf(&quot;|%5s|&quot;, &quot;arbi&quot;) -&amp;gt; | arbi|&lt;/div&gt;&lt;div&gt;printf(&quot;|%1s|&quot;, &quot;arbi&quot;) -&amp;gt; |arbi|&lt;/div&gt;&lt;div&gt;printf(&quot;|%5i|&quot;, 123) -&amp;gt; |&amp;nbsp; 123|&lt;/div&gt;&lt;div&gt;printf(&quot;|%1i&quot;, 123) -&amp;gt; |123|&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;printf(&quot;|%-5s|&quot;, &quot;arbi&quot;) -&amp;gt; |arbi |&lt;/div&gt;&lt;div&gt;printf(&quot;|%-1s|&quot;, &quot;arbi&quot;) -&amp;gt; |arbi|&lt;/div&gt;&lt;div&gt;printf(&quot;|%-5i|&quot;, 123) -&amp;gt; |123&amp;nbsp; |&lt;/div&gt;&lt;div&gt;printf(&quot;|%-1i&quot;, 123) -&amp;gt; |123|&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="165" y="860" width="290" height="290" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
